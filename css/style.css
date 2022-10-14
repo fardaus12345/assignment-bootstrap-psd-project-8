@@ -1,0 +1,1108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+/* header section css */
+
+.header-section {
+  width: 100%;
+  background: url("../img/Home.png") center top no-repeat;
+  background-size: cover;
+}
+
+.menu .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0px 0px 0px 20px;
+  font-weight: 600;
+}
+
+.menu .navbar-nav .nav-item .nav-link:hover {
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-nav .nav-item .nav-link:focus {
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-nav .nav-link.active {
+  color: #008ed6;
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.banner {
+  width: 100%;
+  padding: 90px 0px;
+}
+.banner .inner-banner h5 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.banner .inner-banner h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0px 0px 15px 0px;
+}
+
+.banner .inner-banner p {
+  color: #646466;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0px 0px 50px 0px;
+}
+.inner-btn {
+  width: 100%;
+}
+
+.inner-btn .btn-primary {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #008ed6;
+  border-radius: 2px;
+  margin: 0px 14px 0px 0px;
+  transition: 1s;
+}
+
+.inner-btn .btn-primary:hover {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+.inner-btn .btn-primary:focus {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+
+.inner-btn .btn-light {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: transparent;
+  transition: 1s;
+}
+
+.inner-btn .btn-light:hover {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+.inner-btn .btn-light:focus {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+
+/* feature css */
+
+.feature-section {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.tittle {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 40px;
+}
+.feature-section .tittle h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.feature-section .tittle h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.inner-feature {
+  width: 100%;
+  padding: 40px 30px 0px 30px;
+  text-align: center;
+}
+
+.inner-feature .inner-box {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border: 1.5px solid #eee;
+  margin: 0px auto 20px;
+  border-radius: 100%;
+}
+
+.inner-feature h4 {
+  font-size: 21px;
+  line-height: 31px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.inner-feature p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+}
+
+/* about section css */
+
+.about-section {
+  width: 100%;
+  padding: 80px 0px;
+  border-top: 1.5px solid #eee;
+}
+
+.about-section .inner-about-content {
+  padding: 40px 0px 0px 0px;
+}
+
+.about-section .tittle-about {
+  width: 100%;
+  text-align: start;
+  padding: 0px 0px 10px;
+}
+.about-section .tittle-about h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.about-section .tittle-about h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.about-section .inner-about-content p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+  padding: 0px 128px 0px 0px;
+}
+
+.about-section .inner-about-content ul {
+  width: 100%;
+  display: block;
+  padding: 25px 0px 0px;
+  margin: 0px;
+}
+
+.about-section .inner-about-content ul li {
+  list-style: none;
+  display: block;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about-section .inner-about-content ul li img {
+  width: 13px;
+  height: 15px;
+  margin: 0px 10px 0px 0px;
+}
+
+/* customize-section css */
+
+.customize-section {
+  width: 100%;
+  padding: 80px 0px;
+  background: #f2f2f2;
+}
+
+.customize-section .inner-customize-content {
+  padding: 54px 0px 0px 0px;
+}
+
+.customize-section .tittle-customize {
+  width: 100%;
+  text-align: start;
+  padding: 0px 0px 10px;
+}
+.customize-section .tittle-customize h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.customize-section .tittle-customize h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.customize-section .inner-customize-content p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+  padding: 0px 128px 0px 0px;
+}
+/* testimonial section css */
+
+.testimonial-section {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../img/testimonial.png") center top no-repeat;
+  background-size: cover;
+}
+
+.testimonial-section .tittle-testimonial {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 10px;
+}
+.testimonial-section .tittle-testimonial h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.testimonial-section .tittle-testimonial h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.testimonial-section .owl-theme {
+  width: 100%;
+  padding: 40px 0px 20px;
+}
+.testimonial-section .owl-theme .item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 20px 0px;
+}
+
+.testimonial-section .owl-theme .item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.testimonial-section .owl-theme .item p {
+  font-size: 14px;
+  color: #f4f4f4;
+  margin: 9px 0px 5px;
+}
+.testimonial-section .owl-theme .item h6 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.testimonial-section .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 70px;
+}
+
+/* eye catcher section css  */
+
+.eye-catcher {
+  width: 100%;
+  padding: 30px 0px;
+  background: #15141a;
+}
+
+.eye-catcher h2 {
+  font-size: 27px;
+  line-height: 37px;
+  color: #646466;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.eye-catcher h2 span {
+  font-size: 27px;
+  line-height: 37px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.eye-catcher .inner-btn {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.eye-catcher .inner-btn .btn-light {
+  padding: 6px 10px;
+  font-size: 12px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: transparent;
+  transition: 1s;
+}
+
+.eye-catcher .inner-btn .btn-light:hover {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+.eye-catcher .inner-btn .btn-light:focus {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+
+.eye-catcher .inner-btn .btn-primary {
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #008ed6;
+  border-radius: 2px;
+  margin: 0px 14px 0px 0px;
+  transition: 1s;
+}
+
+.eye-catcher .inner-btn .btn-primary:hover {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+.eye-catcher .inner-btn .btn-primary:focus {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+
+/* priceing and plan css */
+
+.Pricings-Plans {
+  width: 100%;
+  padding: 80px 0px;
+  background: #f2f2f2;
+}
+
+.Pricings-Plans .tittle-pp {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 40px;
+}
+
+.Pricings-Plans .tittle-pp h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+
+.Pricings-Plans .tittle-pp h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.inner-price {
+  width: 100%;
+  border: 1px solid #646466;
+  text-align: center;
+}
+.price-head {
+  width: 100%;
+  border-bottom: 1px solid #646466;
+}
+
+.price-head h2 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 20px 0px;
+  color: #1a1a1a;
+  transition: 1s;
+}
+
+.inner-price:hover .price-head h2 {
+  color: #008ed6;
+}
+
+.main-price {
+  width: 100%;
+  border-bottom: 1px solid #646466;
+  transition: 1s;
+}
+
+.inner-price:hover .main-price {
+  background: #008ed6;
+}
+
+.main-price h1 {
+  font-size: 61px;
+  line-height: 71px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+  color: #1a1a1a;
+  transition: 1s;
+}
+
+.inner-price:hover .main-price h1 {
+  color: #fff;
+}
+
+.main-price h1 sup {
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 1s;
+}
+
+.inner-price:hover .main-price h1 sup {
+  color: #fff;
+}
+
+.main-price p {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+  color: #999999;
+  transition: 1s;
+}
+
+.inner-price:hover .main-price p {
+  color: #fff;
+}
+
+.price-content {
+  width: 100%;
+}
+
+.price-content p {
+  font-size: 15px;
+  line-height: 25px;
+  padding: 30px 0px;
+  color: #999999;
+  margin: 0px 35px;
+}
+
+.price-content p a {
+  text-decoration: none;
+}
+
+.inner-price .btn-primary {
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin: 0px 14px 20px 0px;
+  transition: 1s;
+}
+
+.inner-price:hover .price-content .btn-primary {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+
+.inner-price:focus .price-content .btn-primary {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+
+/* contact-us css */
+
+.contact-us {
+  width: 100%;
+  padding: 80px 0px 0px;
+  background: #ededed;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-us .tittle-contact {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 40px;
+}
+
+.contact-us .tittle-contact h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+
+.contact-us .tittle-contact h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.comunication {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 0px 12px;
+}
+
+.comunication img {
+  margin: 0px 0px 20px 0px;
+}
+
+.comunication p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.main-form {
+  width: 100%;
+  padding: 50px 70px 40px;
+  background: #15141a;
+  margin: 60px 0px -77px;
+}
+
+.main-form .form-control {
+  font-size: 14px;
+  padding: 16px 10px;
+  text-transform: uppercase;
+  border: 1px solid #444348;
+  color: #444348;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.main-form .form-control:focus {
+  color: #444348;
+  background-color: transparent;
+  border-color: #444348;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.main-form .inner-btn {
+  width: 100%;
+  text-align: right;
+  margin: 20px 0px 0px 14px;
+}
+
+.main-form .inner-btn .btn-primary {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #008ed6;
+  border-radius: 2px;
+  transition: 1s;
+}
+
+.main-form .inner-btn .btn-primary:hover {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+.main-form .inner-btn .btn-primary:focus {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+
+.map {
+  width: 100%;
+}
+
+/* footer section css */
+.footer {
+  width: 100%;
+  padding: 40px 0px;
+  background: #15141a;
+}
+
+.footer .icon ul {
+  text-align: center;
+}
+.footer .icon ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+.footer .icon ul li a i {
+  font-size: 16px;
+  color: #444348;
+  transition: 1s;
+}
+
+.footer .icon ul li a i:hover {
+  color: #008ed6;
+}
+
+.footer .icon p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #444348;
+  margin: 0px;
+}
+
+.footer .icon p span {
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+
+.footer .icon p span:hover {
+  color: #008ed6;
+}
+
+/***************** **responsive css** ******************/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS START */
+  .inner-feature {
+    width: 100%;
+    padding: 40px 30px 0px 30px;
+    text-align: center;
+  }
+  /* CSS END */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS START */
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS START */
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:focus {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-link.active {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .inner-feature p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 160px 0px 160px;
+  }
+
+  .inner-price {
+    width: 39%;
+    text-align: center;
+    margin: 0px 0px 40px 218px;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 12px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS START */
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:focus {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-link.active {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .banner .inner-banner h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0px 150px 0px 0px;
+    font-weight: 500;
+  }
+
+  .inner-btn .btn-primary {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .inner-btn .btn-light {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .eye-catcher h2 {
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .eye-catcher .inner-btn {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+  }
+
+  .inner-price {
+    width: 70%;
+    text-align: center;
+    margin: 0px 75px 40px;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 12px 0px 40px 12px;
+  }
+  .form-content {
+    margin: 0px -14px 0px 10px;
+  }
+
+  .main-form {
+    width: 100%;
+    padding: 50px 17px 40px;
+    margin: 60px 0px -77px;
+  }
+
+  .main-form .form-control {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .main-form .inner-btn {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS START */
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:focus {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-link.active {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .banner .inner-banner h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 31px;
+    line-height: 41px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .inner-btn .btn-primary {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  .inner-btn .btn-light {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  .about-section .inner-about-content p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 14px 0px 0px;
+  }
+
+  .customize-section .inner-customize-content p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 14px 0px 0px;
+  }
+
+  .eye-catcher h2 {
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .eye-catcher .inner-btn {
+    width: 100%;
+    padding: 15px 0px 0px 15px;
+    text-align: center;
+  }
+
+  .inner-price {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 13px;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 50px 12px;
+  }
+
+  .form-content {
+    margin: 0px -14px 0px 10px;
+  }
+
+  .main-form {
+    width: 100%;
+    padding: 50px 17px 40px;
+    margin: 60px 0px -77px;
+  }
+
+  .main-form .form-control {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .main-form .inner-btn {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS START */
+
+  .menu .navbar-nav .nav-item .nav-link:hover {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-item .nav-link:focus {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .menu .navbar-nav .nav-link.active {
+    background: url("../img/Prostokat.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .banner .inner-banner h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  .inner-btn .btn-primary {
+    padding: 4px 5px;
+    font-size: 10px;
+  }
+
+  .inner-btn .btn-light {
+    padding: 4px 5px;
+    font-size: 10px;
+  }
+
+  .about-section .inner-about-content p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 5px 0px 0px;
+  }
+
+  .customize-section .inner-customize-content p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 5px 0px 0px;
+  }
+
+  .eye-catcher h2 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .eye-catcher h2 span {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .eye-catcher .inner-btn {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+  }
+
+  .eye-catcher .inner-btn .btn-light {
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+
+  .eye-catcher .inner-btn .btn-primary {
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+
+  .inner-price {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 12px;
+  }
+
+  .Pricings-Plans {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 12px;
+  }
+  .main-form {
+    width: 100%;
+    padding: 50px 16px 40px;
+    background: #15141a;
+    margin: 60px 0px -77px;
+  }
+  .form-content {
+    margin: 0px -13px 0px 13px;
+  }
+
+  .main-form .inner-btn {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+  }
+
+  /* CSS END */
+}
